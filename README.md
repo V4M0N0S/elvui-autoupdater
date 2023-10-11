@@ -1,9 +1,11 @@
 # ElvUI AutoUpdater written in python
+
 ElvUI AutoUpdater is a python script that allows you to automatically update your ElvUI addon for world of warcraft by downloading the latest version from the official repository and replacing the old files with the new ones. 
 
 This script is designed to simplify the process of keeping your ElvUI up to date.
 
 ## Prerequisites
+
 Before using the ElvUI Auto-Updater, make sure you have the following requirements met:
 
 1. You need to have Python installed on your system. 
@@ -16,12 +18,12 @@ You can install it using pip:
 
 `pip install requests`
 
-
-4. ElvUI should be already installed in your world of warcraft directory, and you should know the path to your ElvUI installation.
+4. ElvUI should be already installed in your world of warcraft directory!
 
 ## How to use
 
 1. Clone or download this repository to your local machine.
+
 2. Edit line 11 from update.py and replace it with your game path like the example.
 
 3. Open a terminal or command prompt and navigate to the directory where you have saved the script.
@@ -33,6 +35,7 @@ You can install it using pip:
 5. If your lazy, use the bat file for updating. You can make a shortcut to your desktop if you like.
 
 ## How it works
+
 The script will connect to the official ElvUI repository on GitHub and download the latest version of the addon.
 It will extract the downloaded ZIP file and update your ElvUI installation by replacing the existing files with the new ones.
 
