@@ -13,12 +13,12 @@ Download and install Python from the official website:
 
 [Python Downloads](https://www.python.org/downloads/)
 
-3. You need to have the `requests` library installed. 
+2. You need to have the `requests` library installed. 
 You can install it using pip:
 
 `pip install requests`
 
-4. ElvUI should be already installed in your world of warcraft directory!
+3. ElvUI should be already installed in your world of warcraft directory!
 
 ## How to use
 
